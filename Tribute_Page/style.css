@@ -1,17 +1,18 @@
 #main{
-    background: palevioletred;
+    background: #92D2D2;
+    padding: 10px;
 }
 #title {
-    background: pink;
-    color: blueviolet;
+    background: #4C6F6F;
+    color: black;
     text-align: center;
     padding: 20px;
     margin-bottom: 0.5em;
 }
-#img-div{
-    background-color: gray;
-    opacity: 0.5;
+#img-div {
     margin: 2%;
+    background: rgba(239, 252, 252, 0.7);
+
 }
 #image {
     width: 200px;
@@ -22,19 +23,20 @@
 }
 #img-caption {
     text-align: center;
-    margin-top: -0.5em;
+    margin: 2px; 
 }
 #content {
     margin-top: 0.5em;
-    background: skyblue;
+    background: #072525;
     padding: 5%;
 }
 #tribute-info {
-  color: brown;
+  color: #E4EBEB;
   font-style: helvetica;
 }
-#tribute-link {
+#link {
     display: block;
+    color: #E4EBEB;
     margin-top: 0.5em;
     text-align: center;
 }
