@@ -15,10 +15,9 @@
 
 }
 #image {
-    width: 200px;
-    height: 200px;
+    max-width: 50%;
+    height: auto;
     display: block;
-    padding: 2em;
     margin: 0px auto;
 }
 #img-caption {
