@@ -1,0 +1,40 @@
+#main{
+    background: palevioletred;
+}
+#title {
+    background: pink;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0.5em;
+}
+#img-div{
+    background-color: gray;
+    opacity: 0.5;
+    margin: 2%;
+}
+#image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    padding: 2em;
+    margin: 0px auto;
+}
+#img-caption {
+    text-align: center;
+    margin-top: -0.5em;
+}
+#content {
+    margin-top: 0.5em;
+    background: skyblue;
+    padding: 5%;
+}
+#tribute-info {
+  color: brown;
+  font-style: helvetica;
+}
+#tribute-link {
+    display: block;
+    margin-top: 0.5em;
+    text-align: center;
+}
