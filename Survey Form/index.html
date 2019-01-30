@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header><h3>Survey Page</h3></header>
+    <content>
+        <p id="description">Let us know how we can improve!</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">
+                First Name: <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            </label>
+            <label for="email" id="email-label">
+                Email: <input type="email" id="email" name="email" placeholder="Enter your email"></br>
+            </label>
+            <label for="age" id="number-label">
+                Age: <input type="number" id="number" name="age" min="18" max="50" placeholder="20"></br>
+            </label>
+            <label for="role" id="role-label"> Current Role: 
+                <select id="dropdown">
+                    <option value="Student">Student</option>
+                    <option value="Not Working">Not Working</option>
+                    <option value="Working">Working</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                </select></br>
+            </label>
+            Gender:</br>
+            <label for="Male"> Male
+                <input type="radio" name="gender" value="Male"></br>
+            </label>
+            <label for="Female"> Female
+                <input type="radio" name="gender" value="Female" checked> </br>
+            </label>
+            What languages would you like to learn in future?</br>
+            <label for="Java"> Java
+                <input type="checkbox" name="language" value="java"></br>
+            </label>
+            <label for="Java"> Python
+                    <input type="checkbox" name="language" value="Python"> </br>
+                </label>
+            <label for="Java"> Ruby
+                        <input type="checkbox" name="language" value="Ruby"></br>
+                </label>
+            <label for="Java"> C++
+                       <input type="checkbox" name="language" value="C++"></br>
+            </label>
+            Comments: </br>
+            <textarea name="comment" rows="4" cols="10" placeholder="Enter your Comments"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </content>
+</body>
+</html>
