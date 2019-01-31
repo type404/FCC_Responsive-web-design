@@ -1,0 +1,19 @@
+body {
+background: linear-gradient(200deg, #4F1A1A 30%, #A71E1E 90%);
+text-align: center;   
+}
+content {
+    display: inline-block;
+    color: #856153;
+    font-family: 'Acme', sans-serif;
+}
+form {
+    background: rgba(247, 235, 235, 0.8);
+    text-align: left;
+    padding: 5%;
+    line-height: 1.5em;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: #1D0902;
+}
+
