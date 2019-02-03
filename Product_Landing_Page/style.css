@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(150deg, rgb(139, 121, 132) 30%, #C986AF);
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+    #header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+@media (max-width: 600px){
+    header {
+        flex-wrap: wrap;
+    }
+}
+.logo {
+    width: 60vw;
+}
+#header-img{
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 100px;;
+}
+#nav-bar ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+   
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 2em;
+}
+#product h5{
+    word-wrap: break-word;
+    margin: 5%;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.parts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: calc (100%/4);
+    margin: 10px;
+    border: 2px solid rgb(19, 10, 10);
+    border-radius: 5px;
+    padding: 2em;
+    background-color: rgba(222, 184, 135, 0.5);
+}
+footer{
+    display: flex;
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: right;
+}
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+}
+footer ul li {
+    padding: 10px;
+    
+}
